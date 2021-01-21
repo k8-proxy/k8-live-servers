@@ -67,10 +67,6 @@ aws-ec2:
     aws_name    : icap-srv-1
     created_by  : k8_proxy
     release_tag : tbd
-  1.2.3.4:
-    aws_name    : not-here
-    created_by  : unit-tests
-    release_tag : tbd    
 aws-ha-proxy:
   us.icap.glasswall-icap.com:
     aws_name          : HAProxy-ICAP-OH
