@@ -1,0 +1,20 @@
+glasswallsolutions.com:
+  ip               : 54.78.209.23
+  icap_server      : tbd
+  hosted_at        :
+    ec2            :
+      name         : Glasswallsolutions Proxy
+  local_dns_change : yes
+  status           : tbd
+
+owasp.org:
+  ip               : 52.213.172.66
+  icap_server      : tbd
+  hosted_at        :
+    ec2            :
+      name         : website_owasp
+  local_dns_change : yes
+  status           : tbd
+
+
+
