@@ -1,4 +1,4 @@
-  aws-ec2:
+aws-ec2:
   54.154.178.234:
     aws_name    : icap-srv-20
     created_by  : k8_proxy
