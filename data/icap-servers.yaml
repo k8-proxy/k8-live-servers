@@ -2,54 +2,71 @@ aws-ec2:
   54.154.178.234:
     aws_name    : icap-srv-20
     created_by  : k8_proxy
+    release_tag : tbd
   3.250.57.14   :
     aws_name    : icap-srv-19
     created_by  : k8_proxy
+    release_tag : tbd
   34.251.124.159:
     aws_name    : icap-srv-18
     created_by  : k8_proxy
+    release_tag : tbd
   34.247.85.155 :
     aws_name    : icap-srv-17
-    created_by: k8_proxy
-  34.241.51.250:
-    aws_name: icap-srv-16
-    created_by: k8_proxy
-  34.244.46.139:
-    aws_name: icap-srv-15
-    created_by: k8_proxy
+    created_by  : k8_proxy
+    release_tag : tbd
+  34.241.51.250 :
+    aws_name    : icap-srv-16
+    created_by  : k8_proxy
+    release_tag : tbd
+  34.244.46.139 :
+    aws_name    : icap-srv-15
+    created_by  : k8_proxy
+    release_tag : tbd
   34.242.162.186:
-    aws_name: icap-srv-13
-    created_by: k8_proxy
-  34.245.48.242:
-    aws_name: icap-srv-12
-    created_by: k8_proxy
+    aws_name    : icap-srv-13
+    created_by  : k8_proxy
+    release_tag : tbd
+  34.245.48.242 :
+    aws_name    : icap-srv-12
+    created_by  : k8_proxy
+    release_tag : tbd
   34.245.236.144:
-    aws_name: icap-srv-11
-    created_by: k8_proxy
+    aws_name    : icap-srv-11
+    created_by  : k8_proxy
+    release_tag : tbd
   54.155.152.233:
-    aws_name: icap-srv-10
-    created_by: k8_proxy
-  3.248.203.245:
-    aws_name: icap-srv-9
-    created_by: k8_proxy
-  34.244.33.69:
-    aws_name: icap-srv-7
-    created_by: k8_proxy
+    aws_name    : icap-srv-10
+    created_by  : k8_proxy
+    release_tag : tbd
+  3.248.203.245 :
+    aws_name    : icap-srv-9
+    created_by  : k8_proxy
+    release_tag : tbd
+  34.244.33.69  :
+    aws_name    : icap-srv-7
+    created_by  : k8_proxy
+    release_tag : tbd
   18.202.249.123:
-    aws_name: icap-srv-6
-    created_by: k8_proxy
-  34.247.48.151:
-    aws_name: icap-srv-4
-    created_by: k8_proxy
-  63.33.204.68:
-    aws_name: icap-srv-3
-    created_by: k8_proxy
-  34.244.7.158:
-    aws_name: icap-srv-2
-    created_by: k8_proxy
-  3.248.187.0:
-    aws_name: icap-srv-1
-    created_by: k8_proxy
+    aws_name    : icap-srv-6
+    created_by  : k8_proxy
+    release_tag : tbd
+  34.247.48.151 :
+    aws_name    : icap-srv-4
+    created_by  : k8_proxy
+    release_tag : tbd
+  63.33.204.68  :
+    aws_name    : icap-srv-3
+    created_by  : k8_proxy
+    release_tag : tbd
+  34.244.7.158  :
+    aws_name    : icap-srv-2
+    created_by  : k8_proxy
+    release_tag : tbd
+  3.248.187.0   :
+    aws_name    : icap-srv-1
+    created_by  : k8_proxy
+    release_tag : tbd
 azure-rancher:
   gw-icap-prd-nor.prd.icap-proxy.curlywurly.me:
     created_by: codurance
