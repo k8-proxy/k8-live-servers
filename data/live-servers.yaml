@@ -1,0 +1,12 @@
+live_servers:
+  aws-ec2:
+    - a
+    - b
+  azure-rancher:
+    - c
+    - d
+  azure-aks:
+    - e
+    - -f
+  vmware-esxi:
+  vmware-vcenter:
