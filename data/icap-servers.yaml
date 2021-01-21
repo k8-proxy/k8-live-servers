@@ -67,6 +67,26 @@ aws-ec2:
     aws_name    : icap-srv-1
     created_by  : k8_proxy
     release_tag : tbd
+aws-ha-proxy:
+  us.icap.glasswall-icap.com:
+    aws_name          : HAProxy-ICAP-OH
+    created_by        : k8_proxy
+    servers           :
+      - ip-1          :
+          aws_name    : ICAP-Server-1
+          release_tag : tbd
+      - ip-2          :
+          aws_name    : ICAP-Server-2
+          release_tag : tbd
+      - ip-3          :
+          aws_name    : ICAP-Server-3
+          release_tag : tbd
+      - ip-4          :
+          aws_name    : ICAP-Server-4
+          release_tag : tbd
+      - ip-5          :
+          aws_name    : ICAP-Server-5
+          release_tag : tbd
 azure-rancher:
   gw-icap-prd-nor.prd.icap-proxy.curlywurly.me:
     created_by: codurance

@@ -4,7 +4,7 @@ from osbot_utils.utils.Yaml import yaml_load
 
 class Live_Servers:
     def __init__(self):
-        self.path_live_servers = path_combine('../../data', 'icap-servers.yaml')
+        self.path_live_servers = path_combine(__file__,'../../data/icap-servers.yaml')
 
     def icap_aws_ec2(self):
         return self.icap().get('aws-ec2')
