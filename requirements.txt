@@ -1,12 +1,12 @@
 git+https://github.com/owasp-sbot/OSBot-Utils.git
 git+https://github.com/owasp-sbot/OSBot-AWS.git
+boto3
+elasticsearch
 kubernetes
 pyyaml
-boto3
 python-dotenv
 
 # for testing
+coveralls
 pytest
 pytest-cov
-coveralls
-docker

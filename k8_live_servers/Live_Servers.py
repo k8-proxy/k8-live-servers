@@ -9,6 +9,16 @@ class Live_Servers:
     def icap_aws_ec2(self):
         return self.icap().get('aws-ec2')
 
+    def icap_aws_ec2__list(self):
+        data = []
+        servers = self.icap_aws_ec2()
+        for server_id in servers:
+            item = servers[server_id]
+            item['server_id'] = server_id
+            data.append(item)
+        return data
+
     def icap(self):
         return yaml_load(self.path_live_servers)
+
 
