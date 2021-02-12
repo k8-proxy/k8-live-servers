@@ -1,6 +1,6 @@
 from osbot_utils.utils.Misc import split_lines
+from osbot_utils.utils.Misc import split_spaces
 
-from k8_kubectl.helpers.to_add_to_sbot.OSBot_Utils__Local import split_spaces
 from k8_live_servers.cloud.aws.EC2 import EC2
 
 K8_GW_LOGS_FOLDER = '/run/desktop/mnt/host/c/'

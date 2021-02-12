@@ -1,9 +1,8 @@
 import os
 
-from dotenv import load_dotenv
+from dotenv                                       import load_dotenv
 from osbot_utils.decorators.methods.cache_on_self import cache_on_self
-
-from k8_kubectl.kubernetes.Ssh import Ssh
+from k8_kubernetes.kubernetes.Ssh                 import Ssh
 
 
 class EC2:

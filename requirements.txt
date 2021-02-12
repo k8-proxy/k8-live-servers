@@ -1,5 +1,8 @@
+git+https://github.com/owasp-sbot/OSBot-browser.git
 git+https://github.com/owasp-sbot/OSBot-Utils.git
 git+https://github.com/owasp-sbot/OSBot-AWS.git
+git+https://github.com/owasp-sbot/OSBot-Elastic.git
+git+https://github.com/k8-proxy/k8-kubernetes.git
 boto3
 elasticsearch
 kubernetes
@@ -10,3 +13,5 @@ python-dotenv
 coveralls
 pytest
 pytest-cov
+syncer
+pyppeteer2

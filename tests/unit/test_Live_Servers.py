@@ -1,10 +1,8 @@
-from pprint import pprint
-from unittest import TestCase
-
-from osbot_utils.utils.Files import file_exists
-
+from pprint                       import pprint
+from unittest                     import TestCase
+from osbot_utils.utils.Files      import file_exists
+from osbot_utils.utils.Misc       import sorted_set
 from k8_live_servers.Live_Servers import Live_Servers
-from osbot_elastic.helpers._to_add_to_osbot.OSBot_Utils__Local import sorted_set
 
 
 class test_Live_Servers(TestCase):
