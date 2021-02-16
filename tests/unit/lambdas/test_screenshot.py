@@ -29,10 +29,11 @@ class test_screenshot(TestCase):
 
         assert self.save_image(png_data, '/tmp/test.png') is True
 
-    # def test_invode_directly__open_page(self):
-    #     png_data = self.handler({'url'      : 'https://www.google.com',
-    #                              'headless' : False})
-    #     assert self.save_image(png_data, '/tmp/test.png') is True
+    def test_invoke_directly__open_page(self):
+        png_data = self.handler({'url'      : 'https://www.google.com',
+                                 'headless' : False,
+                                 'shutdown' : True})
+        assert self.save_image(png_data, '/tmp/test.png') is True
 
     def test_deploy_lambda(self):
         deploy = Lambda_Deploy(self.handler)
@@ -44,6 +45,7 @@ class test_screenshot(TestCase):
 
     def test_invoke_lambda__simple_url(self):
         png_data = Lambda(self.lambda_name).invoke({'url':'https://google.com'})
+
         assert self.save_image(png_data, '/tmp/test.png') is True
 
     def test_invoke_lambda__with_delay(self):
