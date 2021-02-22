@@ -99,17 +99,17 @@ class test_screenshot_fast_api(TestCase):
         assert Browser_Lamdba_Helper().save_png_data(response.json()['png_data']).__contains__("Png data with size")
 
     def test_invoke_api_directly__post_screenshot__exec_js_code(self):
-        payload = '{"url" : "https://www.google.com", "js_code" : "document.write(\'hello world\')"}'
+        payload  = '{"url" : "https://www.google.com", "js_code" : "document.write(\'hello world\')"}'
         response = client.post("/api/v1/screenshot", payload)
 
         assert response.status_code == 200
         assert Browser_Lamdba_Helper().save_png_data(response.json()['png_data']).__contains__("Png data with size")
 
     def test_invoke_lambda__api_gateway_base_url(self):
-        response                                                           = self.rest_api.test_method('/', 'GET')
+        response = self.rest_api.test_method('/', 'GET')
 
-        assert response.get('status'                                     ) == 200
-        assert response.get('body'                                       ) == '{"message":"Welcome to Screenshot FastAPI"}'
+        assert response.get('status') == 200
+        assert response.get('body'  ) == '{"message":"Welcome to Screenshot FastAPI"}'
 
     def test_invoke_lambda__post_screenshot__simple_url(self):
         payload  = '{"url" : "https://google.com"}'
