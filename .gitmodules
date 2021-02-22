@@ -1,6 +1,0 @@
-[submodule "modules/k8-kubectl"]
-	path = modules/k8-kubectl
-	url = git@github.com:k8-proxy/k8-kubectl.git
-[submodule "modules/OSBot-Elastic"]
-	path = modules/OSBot-Elastic
-	url = git@github.com:owasp-sbot/OSBot-Elastic.git

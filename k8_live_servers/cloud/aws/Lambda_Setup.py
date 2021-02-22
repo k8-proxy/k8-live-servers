@@ -1,7 +1,4 @@
-from osbot_aws.Dependencies import pip_install_dependency, upload_dependency
-from osbot_utils.utils.Files import path_combine, folder_exists
-
-from k8_kubectl.helpers.to_add_to_sbot.OSBot_AWS_AWS import Lambda_Upload_Package
+from osbot_aws.helpers.Lambda_Upload_Package import Lambda_Upload_Package
 
 class Lambda_Setup:
 
